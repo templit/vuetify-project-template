@@ -1,6 +1,6 @@
 {
-  "name": "toolbox",
-  "short_name": "toolbox",
+  "name": "vuetify-project-template",
+  "short_name": "vuetify-project-template",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",

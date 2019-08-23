@@ -1,13 +1,21 @@
 import Vue from 'vue';
-import App from './App.vue';
-import router from './router';
-import store from './store';
-import './registerServiceWorker';
 
-Vue.config.productionTip = false;
+import 'babel-polyfill';
+import '@/plugins/registerServiceWorker';
+
+import router from '@/plugins/router';
+import store from '@/plugins/store';
+import vuetify from '@/plugins/vuetify';
+
+import App from '@/components/app/app.component';
+
+if (process.env.NODE_ENV !== 'production') {
+  Vue.config.productionTip = false;
+}
 
 new Vue({
   router,
   store,
-  render: (h) => h(App),
+  vuetify,
+  render: h => h(App),
 }).$mount('#app');
