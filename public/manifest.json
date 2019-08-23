@@ -1,6 +1,6 @@
 {
-  "name": "vuetify-project-template",
-  "short_name": "vuetify-project-template",
+  "name": "Vuetify Project Template",
+  "short_name": "Vuetify Project Template",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
