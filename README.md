@@ -1,4 +1,4 @@
-# Vuetify Project Template
+# vuetify-project-template
 
 ## Project setup
 
