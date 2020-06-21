@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import { CreateElement, VNode } from 'vue/types/umd';
 
 import 'babel-polyfill';
 import '@/plugins/registerServiceWorker';
@@ -17,6 +18,6 @@ new Vue({
   router,
   store,
   vuetify,
-  render: h => h(AppComponent),
+  render: (renderer: CreateElement): VNode => renderer(AppComponent),
 })
-.$mount('#app');
+  .$mount('#app');
