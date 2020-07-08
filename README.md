@@ -1,47 +1,39 @@
 # Vuetify Project Template
 
-## Project setup
+## Scripts
 
-```bash
-npm install
-```
-
-### Compiles and hot-reloads for development
+### Run Server as Watch Mode
 
 ```bash
 npm run start
 ```
 
-### Compiles and minifies for production
+### Run Server on Server
+
+```bash
+npm run start:dev
+npm run start:stage
+npm run start:prod
+```
+
+### Build
 
 ```bash
 npm run build
+npm run build:dev
+npm run build:stage
+npm run build:prod
 ```
 
-### Run your tests
+### Test
 
 ```bash
-npm run test
+npm run test:unit
+npm run test:e2e
 ```
 
-### Lints and fixes files
+### Styling Code
 
 ```bash
 npm run lint
 ```
-
-### Run your end-to-end tests
-
-```bash
-npm run test:e2e
-```
-
-### Run your unit tests
-
-```bash
-npm run test:unit
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
